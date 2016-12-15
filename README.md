@@ -37,7 +37,23 @@ If you really want to be 100% correct, then you have to take into account that s
 
 This is the case in some islands of the Aegean Sea. 
 
-
+```
 ΦΠΑ (μειωμένοι κατά 30%)
 
 Οι μειωμένοι κατά 30% συντελεστές (ισχύουν σε ορισμένα νησιά του Αιγαίου) διαμορφώνονται σε 17%, 9% και 4%.
+
+Τα νησιά είναι: 
+* Λέσβος, Χίος, Ικαρία, Λήμνος, Κάλυμνος, Άγιος Ευστράτιος, Ψαρά, Φούρνοι, Οινούσσες, Κως, Σαμοθράκη,  Σάμος, Νίσυρος, Πάτμος, Λειψοί, Λέρος, Σύμη, Νίσυρος, Τήλος, Κάσος,  Αστυπάλαια, Καστελόριζο, Χάλκη, Αμοργός, Ίος, Ανάφη, Κίμωλος, Φολέγανδρος, Σέριφος, Σίκινος, Κύθνος,  Σκόπελος και λοιπά μη κατονομαζόμενα νησιά του Αιγαίου (πλην Κρήτης, Ευβοίας και Αργοσαρωνικού) 
+```
+
+## Level 4 - Go Commercial 
+If you really want to take this to the next level, below you'll find the full spec, with all the exact descriptions of product types and VAT rates. 
+
+https://www.e-forologia.gr/lawbank/document.aspx?digest=7DC38D0A614986E0.238AF446D398&version=2016/05/27
+
+## Level 5 - http://foaas.com/this%20shit/you
+You decide this is simply too much for your use case, so you find a commercial API (probably built by the guys who didn't back down at #4 above), that's really cheap compared to coding all this insanity. 
+
+Refactor your code to use an external API to retrieve the VAT rate:
+* for your product type,
+* depending on the location of your business (in Greece).
