@@ -4,6 +4,8 @@ Your goal is to calculate the price of a product, taking into account EU VAT reg
 
 Simple, right?
 
+Disclaimer: the below specs should NOT be used as a guideline for production systems. They have just been pulled off the web from a quick search, and I do NOT guarantee their correctness. They are simply given as exercise material.
+
 ## Level 1 - Who are you selling to?
 The amount the buyer should pay depends on whether they are a consumer (person) or a business. 
 If they are a consumer, life is easy. They pay VAT, end of story, thank you for your purchase. 
