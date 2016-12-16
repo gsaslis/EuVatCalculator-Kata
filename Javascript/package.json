@@ -1,0 +1,12 @@
+{
+  "name": "kata",
+  "version": "1.0.0",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.2.0"
+  },
+  "scripts": {
+    "test": "mocha test"
+  }
+}
