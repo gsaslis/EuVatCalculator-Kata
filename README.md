@@ -4,7 +4,10 @@ Your goal is to calculate the price of a product, taking into account EU VAT reg
 
 Simple, right?
 
-Disclaimer: the below specs should NOT be used as a guideline for production systems. They have just been pulled off the web from a quick search, and I do NOT guarantee their correctness. They are simply given as exercise material.
+Start going through the levels below, and try not to skip ahead. Focus on always just implementing the **best solution for the current level you're working on**, not the overall system. 
+Knowing upfront what the overall system you're working on will look like, happens exactly z-e-r-o times in real life, so you're basically cheating and fooling noone but yourself.  : ) 
+
+*Disclaimer: the below specs should NOT be used as a guideline for production systems. They have just been pulled off the web from a quick search, and I do NOT guarantee their correctness. They are simply given as exercise material.*
 
 ## Level 1 - Who are you selling to?
 The amount the buyer should pay depends on whether they are a consumer (person) or a business. 
@@ -14,6 +17,9 @@ If they are a business, then, it depends a little more:
 * If they are a **Greek** business, then they pay VAT (and they can later claim it back from their input VAT). 
 * If they are an **EU** business (i.e. they hold a valid EU VAT ID number), then they DO NOT pay VAT. 
 * If they are a business outside of the EU (rest of world), or they do not hold a valid EU VAT ID, then they pay VAT.  
+
+To implement the **valid VAT ID** check, you will need to rely on a 3rd-party API. This is what you will need to mock/stub out in your tests, depending on your approach. 
+
 
 ## Level 2 - What are you selling?
 The VAT % depends on the type of product you're selling. Please see below list: 
